@@ -2,6 +2,12 @@
 
 The server currently uses NodeJS v12.13.1 (see `.nvmrc`). Use [nvm](https://github.com/nvm-sh/nvm) to install it locally (i.e. `nvm install v12.13.1`)
 
+# Developer Instructions
+
+1. Run git clone https://github.com/deepeeess/cma
+2. Run `npm install`
+3. Run `npm start`
+
 # Initial build
 
 1. Run `nvm uninstall v12.13.1`.
