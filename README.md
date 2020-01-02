@@ -1,14 +1,22 @@
 # Overview
 
-The server currently uses NodeJS v12.13.1 (see `.nvmrc`). Use [nvm](https://github.com/nvm-sh/nvm) to install it locally (i.e. `nvm install v12.13.1`)
+The server currently uses NodeJS v12.4.0 (see `.nvmrc`). Use [nvm](https://github.com/nvm-sh/nvm) to install it locally (i.e. `nvm install v12.13.1`)
 
 # Developer Instructions
 
 1. Run git clone https://github.com/deepeeess/cma
 2. Run `npm install`
 3. Run `expo start`
-4. Run `npm install -g react-native-cli`
-5. Run `react-native start --reset-cache`
+
+# Random Commands From Learning
+
+(Warning: This project uses Expo and these may night be compatible
+
+1. Run `react-native start --reset-cache`
+2. Run `npm install -g react-native-git-upgrade` 
+3. Run `react-native-git-upgrade`
+4. Run `react-native eject`
+5. Run `npm install -g react-native-cli`
 
 # Initial build
 
