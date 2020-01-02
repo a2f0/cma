@@ -1,4 +1,6 @@
 {
+  "name": "CMA",
+  "displayName": "CMA",
   "expo": {
     "name": "CMA",
     "slug": "cma",
