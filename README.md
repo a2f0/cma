@@ -2,6 +2,8 @@
 
 The server currently uses NodeJS v12.4.0 (see `.nvmrc`). Use [nvm](https://github.com/nvm-sh/nvm) to install it locally (i.e. `nvm install v12.13.1`)
 
+This project used [expo](https://expo.io/), so be careful and aware when using `react-native` commands.
+
 # Developer Instructions
 
 1. Run git clone https://github.com/deepeeess/cma
@@ -31,6 +33,7 @@ The server currently uses NodeJS v12.4.0 (see `.nvmrc`). Use [nvm](https://githu
 6. Run `cd cma && npm start`.
 7. Install navigation with `expo install react-navigation react-native-gesture-handler react-native-reanimated react-native-screens`
 8. Install other deps with `expo install react-navigation-stack @react-native-community/masked-view react-native`, 
+9. Install watchman with `brew install watchman` (MacOS).
 
 # iOS
 
