@@ -29,6 +29,8 @@ The server currently uses NodeJS v12.4.0 (see `.nvmrc`). Use [nvm](https://githu
    2. name: "CMA"
    3. slug: "cma"
 6. Run `cd cma && npm start`.
+7. Install navigation with `expo install react-navigation react-native-gesture-handler react-native-reanimated react-native-screens`
+8. Install other deps with `expo install react-navigation-stack @react-native-community/masked-view react-native`, 
 
 # iOS
 
