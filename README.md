@@ -34,9 +34,3 @@ This project used [expo](https://expo.io/), so be careful and aware when using `
 7. Install navigation with `expo install react-navigation react-native-gesture-handler react-native-reanimated react-native-screens`
 8. Install other deps with `expo install react-navigation-stack @react-native-community/masked-view react-native`, 
 9. Install watchman with `brew install watchman` (MacOS).
-
-# iOS
-
-## Starting the dev server
-
-1. Run `cd cma && npm start`
