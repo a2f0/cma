@@ -10,16 +10,6 @@ This project used [expo](https://expo.io/), so be careful and aware when using `
 2. Run `npm install`
 3. Run `expo start`
 
-# Random Commands From Learning
-
-(Warning: This project uses Expo and these may night be compatible
-
-1. Run `react-native start --reset-cache`
-2. Run `npm install -g react-native-git-upgrade` 
-3. Run `react-native-git-upgrade`
-4. Run `react-native eject`
-5. Run `npm install -g react-native-cli`
-
 # Initial build
 
 1. Run `nvm uninstall v12.4.0`.
