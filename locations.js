@@ -1,0 +1,36 @@
+export const locationList = [
+    {
+        "id": 1,
+        "location_name": "Times Square Tattoo",
+        "field_latitude": 40.7593302,
+        "field_longitude": -73.9872875,
+        "field_street_address": "252 West 46th Street",
+        "field_city": "New York",
+        "field_state": "NY",
+        "field_zip_code": 10001,
+        "categoriesNames": "New York",
+    },
+    {
+        "id": 2,
+        "location_name": "The Wiz",
+        "field_latitude": 40.73611,
+        "field_longitude": -73.99130,
+        "field_street_address": "17 Union Square W",
+        "field_city": "New York",
+        "field_state": "NY",
+        "field_zip_code": 10003,
+        "categoriesNames": "New York",
+      },
+      {
+        "id": 3,
+        "location_name": "Holy Apostles Soup Kitchen",
+        "field_latitude": 40.7493372,
+        "field_longitude": -73.998837,
+        "field_street_address": "296 Ninth Avenue",
+        "field_city": "New York",
+        "field_state": "NY",
+        "field_zip_code": 10001,
+        "categoriesNames": "New York",
+
+      },
+]
