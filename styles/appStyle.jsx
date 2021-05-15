@@ -35,7 +35,7 @@ const appStyle = StyleSheet.create({
     menuheader: {
       borderWidth: 0,
       borderColor: 'red'
-  
+
     },
     menuheaderimage: {
       width: headerwidth,
@@ -72,7 +72,7 @@ const appStyle = StyleSheet.create({
       marginLeft: 10,
       marginRight: 10
     },
-  
+
     fullwidth: {
       width: '100%'
     },
@@ -96,12 +96,12 @@ const appStyle = StyleSheet.create({
       color: 'white'
     },
     LocationDetail: {
-      fontSize: 20, 
+      fontSize: 20,
       color: 'white',
       textAlign: 'left',
       width: width
     }
-    // End Maps 
+    // End Maps
 });
 
 export default appStyle;

@@ -7,9 +7,9 @@ export default class LocationDetailScreen extends React.Component {
     _goMap(location) {
       var query = location.field_latitude + "," + location.field_longitude
       openMap({ latitude: location.field_latitude, longitude: location.field_longitude, query: query });
-      
+
     }
-  
+
     render() {
       const { navigation } = this.props;
       return (
@@ -34,8 +34,8 @@ export default class LocationDetailScreen extends React.Component {
           </Body>
         <Footer style={[  appStyle.blackbackground, appStyle.notopborder  ]} >
           <TouchableHighlight onPress={() => this.props.navigation.goBack() }>
-              <Image 
-                style={appStyle.footerlogo} 
+              <Image
+                style={appStyle.footerlogo}
                 source={require('../img/cma-circle-logo.png')}
                 resizeMode = 'cover'
               />
@@ -45,4 +45,3 @@ export default class LocationDetailScreen extends React.Component {
       );
     }
   }
-  
