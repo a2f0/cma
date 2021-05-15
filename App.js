@@ -16,13 +16,13 @@ class HomeScreen extends React.Component {
   constructor(props) {
     super(props);
   }
-  
+
   render() {
     return (
       <View style={appStyle.flexcontainersplash}>
         <TouchableHighlight onPress={() => this.props.navigation.navigate('Menu') }>
-          <Image 
-            style={appStyle.mainlogo} 
+          <Image
+            style={appStyle.mainlogo}
             source={require('./img/cma-circle-logo.png')}
             resizeMode = 'cover'
           />
@@ -56,6 +56,3 @@ const RootStack = createStackNavigator({
 );
 
 export default createAppContainer(RootStack);
-
-
-

@@ -9,7 +9,7 @@ export default class GeneralInformationScreen extends React.Component {
         <Container>
           <StatusBar barStyle="light-content" backgroundColor="#000" />
           <Body style={appStyle.blackbackground}>
-          <ScrollView> 
+          <ScrollView>
             <Text style={[appStyle.white, appStyle.headertext] }>General Information</Text>
             <Text style={[appStyle.white, appStyle.bodytext ]}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -20,8 +20,8 @@ export default class GeneralInformationScreen extends React.Component {
           </Body>
         <Footer style={[  appStyle.blackbackground, appStyle.notopborder  ]} >
           <TouchableHighlight onPress={() => this.props.navigation.navigate('Menu') }>
-              <Image 
-                style={appStyle.footerlogo} 
+              <Image
+                style={appStyle.footerlogo}
                 source={require('../img/cma-circle-logo.png')}
                 resizeMode = 'cover'
               />

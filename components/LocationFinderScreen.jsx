@@ -15,7 +15,7 @@ export default class LocationFinderScreen extends React.Component {
         location: location
       })
     }
-  
+
     render() {
       return (
         <Container>
@@ -27,7 +27,7 @@ export default class LocationFinderScreen extends React.Component {
                       latitude: 40.748389,
                       longitude: -73.985780,
                       latitudeDelta: 0.0922,
-                      longitudeDelta: 0.0421,}} 
+                      longitudeDelta: 0.0421,}}
             style={appStyle.mapStyle}
             provider={MapView.PROVIDER_GOOGLE}
             customMapStyle = { mapStyle }>
@@ -50,8 +50,8 @@ export default class LocationFinderScreen extends React.Component {
         </Body>
       <Footer style={[  appStyle.blackbackground, appStyle.notopborder  ]} >
         <TouchableHighlight onPress={() => this.props.navigation.navigate('Menu') }>
-            <Image 
-              style={appStyle.footerlogo} 
+            <Image
+              style={appStyle.footerlogo}
               source={require('../img/cma-circle-logo.png')}
               resizeMode = 'cover'
             />
